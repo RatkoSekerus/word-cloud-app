@@ -1,0 +1,18 @@
+@import "src/styles/variables.scss";
+
+.positive-mentions {
+    color: $positive-mentions;
+}
+
+.neutral-mentions {
+    color: $neutral-mentions;
+}
+
+.negative-mentions {
+    color: $negative-mentions;
+}
+
+.meta-data {
+    font-family: Arial, sans-serif;
+    font-style: normal;
+}

@@ -1,0 +1,18 @@
+<div *ngIf="!isEmptyTopic" class="row pt-4 meta-data">
+    <div class="col-12 pb-2">
+        <h3>Information on topic "{{topic.name}}"</h3>
+    </div>
+    <div class="col-12 pb-2">
+        <h4>Total Mentions: {{topic.volume}}</h4>
+    </div>
+
+    <div class="col-12">
+        <h4>Positive Mentions: <span class="positive-mentions">{{topic.sentiment?.positive ?? 0}}</span></h4>
+    </div>
+    <div class="col-12">
+        <h4>Neutral Mentions: <span class="neutral-mentions">{{topic.sentiment?.neutral ?? 0}}</span></h4>
+    </div>
+    <div class="col-12">
+        <h4>Negative Mentions: <span class="negative-mentions">{{topic.sentiment?.negative ?? 0}}</span></h4>
+    </div>
+</div>
