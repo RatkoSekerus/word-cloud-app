@@ -1,17 +1,37 @@
-# word-cloud-appsdfs
+# word-cloud-app
+
+## git 
 
 download git from this link https://git-scm.com/downloads and install it
 
-clone git repository to your local folder, open git bash navigate to your folder and run command 'git clone https://github.com/RatkoSekerus/word-cloud-app.git'
+clone git repository to your local folder, open git bash navigate to your folder and run command 
+```git clone https://github.com/RatkoSekerus/word-cloud-app.git```
+
+## node
 
 download node.js from here https://nodejs.org
 
-run command 'npm install'
+navigate to root app folder and run command 
 
-to run application run command 'ng serve' in app root folder
+```
+npm install
+````
 
-** if you run into some dependecy issues after running 'ng serve' command, delete node_module file and run npm install again **
+## how to run app
 
-to run unit tests run command 'npm run test-single-headless' in app root folder
+navigate to root app folder and run command 
 
+```
+ng serve
+```
+
+** if you run into some dependecy issues after running ```ng serve``` command, delete node_module file and run ```npm install``` again **
+
+## how to run unit tests
+
+navigate to root app folder and run command 
+
+```
+npm run test-single-headless
+```
 
