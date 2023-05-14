@@ -17,7 +17,7 @@ navigate to root app folder and run command
 npm install
 ````
 
-## how to run app
+## how to run app ▶️
 
 navigate to root app folder and run command 
 
@@ -27,7 +27,7 @@ ng serve
 
 ** if you run into some dependecy issues after running ```ng serve``` command, delete node_module file and run ```npm install``` again **
 
-## how to run unit tests
+## how to run unit tests ⚙️
 
 navigate to root app folder and run command 
 
