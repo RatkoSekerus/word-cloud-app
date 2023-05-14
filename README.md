@@ -5,7 +5,10 @@
 download git from this link https://git-scm.com/downloads and install it
 
 clone git repository to your local folder, open git bash navigate to your folder and run command 
-```git clone https://github.com/RatkoSekerus/word-cloud-app.git```
+
+```
+git clone https://github.com/RatkoSekerus/word-cloud-app.git
+```
 
 ## node
 
