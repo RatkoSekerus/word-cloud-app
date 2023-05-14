@@ -1,12 +1,10 @@
-# word-cloud-app
+# word-cloud-appsdfs
 
 download git from this link https://git-scm.com/downloads and install it
 
 clone git repository to your local folder, open git bash navigate to your folder and run command 'git clone https://github.com/RatkoSekerus/word-cloud-app.git'
 
 download node.js from here https://nodejs.org
-
-reopen gitbash and navigate to app root folder and run comand 'npm install -g @angular/cli'
 
 run command 'npm install'
 
